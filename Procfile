@@ -1,1 +1,1 @@
-web: gunicorn reacher-creatures.wsgi
+web: gunicorn reacher_creatures.wsgi
