@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-davidcalike-reachercrea-qwozpfgsn3a.ws-eu108.gitpod.io', 'reacher-creatures.herokuapp.com']
+ALLOWED_HOSTS = ['8000-davidcalike-reachercrea-qwozpfgsn3a.ws-eu108.gitpod.io', 'reacher-creatures.herokuapp.com', 'reacher-creatures-7d471e8ba390.herokuapp.com']
 
 
 # Application definition
