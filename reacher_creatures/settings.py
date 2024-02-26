@@ -44,11 +44,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'cloudinary_storage',
     'django.contrib.staticfiles',
-    'cloudinary',
-
+    
     #custom apps
     'blog',
     'about',
+
+    #packages
+    'cloudinary',
 ]
 
 MIDDLEWARE = [

@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from django.views import generic
+from django.views.generic import TemplateView
 
-class HomePage(generic.TemplateView):
+class HomePage(TemplateView):
     """
-    Displays hero carousel and CTA to about page"
+    Displays home page"
     """
     template_name = 'index.html'
     
